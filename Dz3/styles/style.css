@@ -1,0 +1,198 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('/Dz3/fonts/gilroy-bold.eot') format('embedded-opentype'),
+		url('../fonts/gilroy-bold.woff2') format('woff2'),
+		url('../fonts/gilroy-bold.woff') format('woff'),
+		url('../fonts/gilroy-bold.ttf') format('truetype'),
+		url('../fonts/gilroy-bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy-Regular';
+	src: url('../fonts/gilroy-regular.eot') format('embedded-opentype'),
+		url('../fonts/gilroy-regular.woff2') format('woff2'),
+		url('../fonts/gilroy-regular.woff') format('woff'),
+		url('../fonts/gilroy-regular.ttf') format('truetype'),
+		url('../fonts/gilroy-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    margin-top: auto;
+    width: 1915px;
+    background-color: #FFF;
+}
+
+.features {
+    display: grid;
+    gap: 59px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.item__img {
+   padding-top: 40px;
+   padding-left: 30px;
+}
+
+.heading {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.text {
+    color: #666;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    padding-top: 17px;
+    padding-left: 30px;
+}
+
+.button {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    text-decoration: none;
+}
+
+.item2 {
+    display: grid;
+    width: 370px;
+    height: 291px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item {
+    display: grid;
+}
+
+.container2 {
+    margin-top: auto;
+    width: 1915px;
+    background-color: #FAFAFA;
+}
+
+.services__title {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 92px;
+    text-align: center;
+}
+
+.services__subtitle {
+    color: #666;
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    padding-top: 19px;
+    padding-bottom: 54px;
+    text-align: center;
+}
+
+.services__content {
+    display: grid;
+    gap: 59px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.services__section {
+    display: grid;
+    justify-items: center;
+    width: 370px;
+    height: 549px;
+    flex-shrink: 0;
+    align-items: start;
+    justify-content: space-evenly;
+    align-content: center;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.services__img {
+    padding-bottom: 21px;
+}
+
+.services__heading {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 22px;
+    justify-content: center;
+}
+
+.services__text {
+    color: #AAA;
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 150%;
+    padding-bottom: 39px;
+}
+
+.services__button {
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-decoration: none;
+    border-radius: 42px;
+    background: var(--3-a-68-b-8, #f25822);
+    padding: 1rem 2rem;
+    margin-right: 20px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+}
+
+.fa-chevron-right {
+    margin-left: 6px;
+}
+
+
+
