@@ -176,6 +176,17 @@ button {
   padding-bottom: 6px;
 }
 
+.content_text {
+  color: #9F9F9F;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
 .content_title {
   display: flex;
   color: #000;
@@ -190,7 +201,7 @@ button {
   margin-left: 16px;
 }
 
-.content_text {
+.goods_content_text {
    color: #5D5D5D;
     font-family: 'Lato';
     font-size: 14px;
@@ -198,7 +209,7 @@ button {
     font-weight: 300;
     line-height: normal;
     margin-bottom: 16px;
-    text-align: center;
+    text-align: start;
     margin-left: 18px;
 }
 
