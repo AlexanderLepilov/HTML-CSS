@@ -45,7 +45,7 @@ button {
   justify-self: end;
   width: 158px;
   height: 29px;
-  background-image: url(/img/Nav/Button\ copy.svg);
+  background-image: url(/img/top_heading/Button\ copy.svg);
   background-repeat: no-repeat;
 }
 
@@ -266,6 +266,10 @@ button {
   padding: 15px 39px 14px 39px;
 }
 
+
+
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 367.5px);
@@ -346,7 +350,7 @@ margin-bottom: 70.5px;
     padding-right: calc(50% - 347px);
   }
   .heading_top_menu {
-    background-image: url(/img/Nav/Button_mobile.svg);
+    background-image: url(/img/mobile/Button_mobile.svg);
     width: 32px;
     height: 23px;
     padding-right: 16px;
@@ -443,20 +447,6 @@ margin-bottom: 70.5px;
     margin-bottom: 85px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
