@@ -52,10 +52,6 @@ button {
 .heading_bottom {
   background-color: #f1e4e6;
   height: 47.7vw;
-  width: 100vw;
-}
-
-.heading_bottom {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -214,6 +210,7 @@ button {
     margin-bottom: 16px;
     text-align: start;
     margin-left: 18px;
+    margin-right: 28px;
 }
 
 .content_img {
@@ -385,6 +382,7 @@ button {
 .input_box {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .input_left_box {
@@ -392,7 +390,6 @@ button {
 }
 
 .subscribe_input {
-  color: transparent;
   border: none;
   background-color: #e1e1e1;
   top: 15px;
@@ -423,6 +420,15 @@ button {
   justify-content: center;
 }
 
+.btn_img{
+  position: relative;
+}
+
+.subscribe_btn_text{
+  position: absolute;
+  padding-left: 18px;
+}
+
 .footer {
   background-color: #222224;
   height: 79px;
@@ -449,10 +455,12 @@ button {
 
 .footer_nav_icon {
   transition: 1s;
+
 }
 
 .footer_nav_icon2 {
   transition: 1s;
+
 }
 
 .footer_nav:hover .footer_nav_icon {
