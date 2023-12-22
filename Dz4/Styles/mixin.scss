@@ -1,0 +1,6 @@
+@mixin hover_btn {
+    background-color: $mainColor;
+    color: $mainWhite;
+    border: 1px solid $mainColor;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+}
