@@ -37,7 +37,7 @@
         fill: $mainColor;
       }
       &__title {
-        color: #222;
+        color: $mainBlackColor;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -62,7 +62,7 @@
         line-height: normal;
         list-style-type: none;
         &_price {
-          color: #ef5b70;
+          color: $mainColor;
           font-size: 22px;
           font-style: normal;
           font-weight: 400;
@@ -96,7 +96,7 @@
       flex-direction: column;
       width: 50%;
       &__title {
-        color: #222;
+        color: $mainBlackColor;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -110,28 +110,13 @@
         margin-bottom: 57px;
       }
       &__input {
-        color: $mainBlackColor;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        border: 1px solid #a4a4a4;
-        display: block;
-        margin-bottom: 9px;
-
-        padding: 13px 0 15px 16px;
-        text-align: start;
-        width: 360px;
+       @include main_input
       }
       &__input::placeholder {
-        color: $mainBlackColor;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
+        @include main_input_placeholder
       }
       &__input:hover::placeholder {
-        color: #b1b1b1;
+        @include main_input_placeholder_hover
       }
       &__total {
         background-color: #f5f3f3;
@@ -147,20 +132,12 @@
         margin-left: 42.5px;
       }
       &__sub-total {
-        color: #4a4a4a;
-        font-size: 11px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        @include text_style(11px, 400, #4a4a4a);
       }
       &__title {
-        color: #222;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
+        @include text_style(16px, 300, $mainBlackColor);
         &_price {
-          color: #f16d7f;
+          color: $mainColor;
           font-size: 16px;
           font-weight: 700;
         }
@@ -169,7 +146,7 @@
   }
 
   .cart-btn {
-    color: #000;
+    color: $mainBlackColor;
     font-size: 14px;
     font-weight: 300;
     line-height: normal;
@@ -187,7 +164,7 @@
 
   .cart-btn_checkout-btn {
     width: 273px;
-    background-color: #fff;
+    background-color: $mainWhite;
     filter: drop-shadow(1px 4px 2px $mainColor);
     margin: 17px 34px 42px 53px;
   }
