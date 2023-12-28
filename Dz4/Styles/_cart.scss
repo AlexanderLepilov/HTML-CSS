@@ -178,3 +178,20 @@
   .cart-btn:hover {
     @include hover_btn;
   }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cart{
+    flex-direction: column;
+    align-items: center;
+    &-shipping{
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+        gap: 15px;
+        &__total{
+        height: 214px;
+        margin-top: 39px;
+        }
+    }
+  }
+}
