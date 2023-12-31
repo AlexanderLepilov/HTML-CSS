@@ -89,6 +89,7 @@
     display: flex;
     justify-content: center;
     height: 601px;
+    border-bottom: 1px solid $mainWhite;
     .bottom_btn {
       display: flex;
       gap: 17px;
@@ -279,4 +280,16 @@
   .bottom_btn:hover .bottom_btn_icon2 {
     fill: #fff;
     transition: 1s;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tab_dissappear {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+  }
+  .description {
+    width: 100%;
+    margin-top: 0px;
+  }
 }

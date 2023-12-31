@@ -184,6 +184,32 @@ p {
   padding-bottom: 16px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .reg {
+    gap: 22px;
+  }
+  .reg__info-title {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .reg__info-text {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .reg__info-list-item {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
 .good_pinkstyle:hover, .content_goods_good .content_img:hover, .catalogue_item_img:hover, .good_pinkstyle2:hover {
   -webkit-filter: brightness(50%);
   transition: all 0.5s ease;
@@ -415,6 +441,18 @@ summary::-webkit-details-marker {
   color: #f16d7f;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 367.5px);
+    padding-right: calc(50% - 367.5px);
+  }
+  .pagination__div {
+    margin-bottom: 63px;
+  }
+  .catalog_filter_left {
+    width: 360px;
+  }
+}
 .good_pinkstyle:hover, .content_goods_good .content_img:hover, .catalogue_item_img:hover, .good_pinkstyle2:hover {
   -webkit-filter: brightness(50%);
   transition: all 0.5s ease;
@@ -509,6 +547,7 @@ summary::-webkit-details-marker {
   display: flex;
   justify-content: center;
   height: 601px;
+  border-bottom: 1px solid #fff;
 }
 .description_box .bottom_btn {
   display: flex;
@@ -686,6 +725,17 @@ summary::-webkit-details-marker {
   transition: 1s;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tab_dissappear {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+  }
+  .description {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
 .good_pinkstyle:hover, .content_goods_good .content_img:hover, .catalogue_item_img:hover, .good_pinkstyle2:hover {
   -webkit-filter: brightness(50%);
   transition: all 0.5s ease;
@@ -889,6 +939,22 @@ summary::-webkit-details-marker {
   box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cart {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart-shipping {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+  }
+  .cart-shipping__total {
+    height: 214px;
+    margin-top: 39px;
+  }
+}
 .good_pinkstyle:hover, .content_goods_good .content_img:hover, .catalogue_item_img:hover, .good_pinkstyle2:hover {
   -webkit-filter: brightness(50%);
   transition: all 0.5s ease;
@@ -1361,4 +1427,76 @@ figure {
 
 .product_text {
   height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 367.5px);
+    padding-right: calc(50% - 367.5px);
+  }
+  .heading .heading_top_logos_img {
+    padding-right: 41px;
+  }
+  .heading .heading_top_menu {
+    padding-left: 32px;
+    padding-right: 16px;
+  }
+  .heading .heading_bottom_right_box_title {
+    font-size: 44px;
+    padding-left: 16px;
+    max-width: none;
+    padding-right: 0;
+  }
+  .heading_bottom .top_text_small {
+    font-size: 24px;
+  }
+  .heading_bottom .top_text_small_pink {
+    font-size: 24px;
+  }
+  .catalogue {
+    grid-template-columns: repeat(3, 30vw);
+  }
+  .catalogue .catalogue_item_img {
+    width: 100%;
+  }
+  .content .content_goods {
+    grid-template-columns: repeat(2, 45vw);
+    gap: 18px;
+  }
+  .content .content_goods_good .content_img_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .good_pinkstyle {
+    width: 100%;
+  }
+  .content .good_pinkstyle .good_pinkstyle_img {
+    width: 17.3vw;
+    height: auto;
+  }
+  .content .content_article_text {
+    margin-bottom: 18px;
+  }
+  .content .price {
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+  .content .bottom_button {
+    margin-bottom: 70.5px;
+  }
+  .advantages .top_article {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+  }
+  .advantages .top_article .article1_text {
+    margin-bottom: 40px;
+  }
+  .contacts {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .footer {
+    gap: 39vw;
+  }
 }/*# sourceMappingURL=style.css.map */
