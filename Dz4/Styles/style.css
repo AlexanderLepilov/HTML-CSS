@@ -259,7 +259,7 @@ summary::-webkit-details-marker {
 }
 .catalog_filter_left[open] {
   background-color: #fff;
-  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  box-shadow: 6px 4px 35px #222 0, 0, 0, 0.21;
 }
 .catalog_filter_left[open] .catalog_filter_left_summary_heading {
   color: #f16d7f;
@@ -340,6 +340,7 @@ summary::-webkit-details-marker {
 }
 .product_filter_details .filter_details_box {
   position: absolute;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

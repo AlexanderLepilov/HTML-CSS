@@ -44,8 +44,8 @@ summary::-webkit-details-marker {
       width: 360px;
       box-sizing: border-box;
       &[open] {
-        background-color: #fff;
-        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        background-color: $mainWhite;
+        box-shadow: 6px 4px 35px $mainBlackColor(0, 0, 0, 0.21);
       }
 
       &[open] .catalog_filter_left_summary_heading {
@@ -133,6 +133,7 @@ summary::-webkit-details-marker {
     }
     .filter_details_box {
       position: absolute;
+      z-index: 1;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
