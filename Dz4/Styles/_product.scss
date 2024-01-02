@@ -65,6 +65,12 @@
     background-color: #f7f7f7;
 }
 
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex;
+}
+
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml,%3Csvg width='31' height='31' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.2998 23.2499L17.0498 15.4999L9.2998 7.7499L10.8498 4.6499L21.6998 15.4999L10.8498 26.3499L9.2998 23.2499Z' fill='black'/%3E%3C/svg%3E%0A");
     background-color: rgba(42, 42, 42, 0.15);
@@ -291,5 +297,34 @@
   .description {
     width: 100%;
     margin-top: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .top_menu {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .description {
+    width: 100%;
+    margin-top: 0px;
+
+    .product_descr_price {
+      margin-bottom: 31px;
+    }
+    .product_descr_price_hr {
+      width: 175px;
+    }
+    .product_descr_title2 {
+      margin-bottom: 31px;
+    }
+  }
+  .carousel-item {
+    height: 454px;
+  }
+
+  .description .product_filter {
+    top: 490px;
+    gap: 22px;
   }
 }
