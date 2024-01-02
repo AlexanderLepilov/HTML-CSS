@@ -1291,27 +1291,27 @@ figure {
   opacity: 0.7;
 }
 
-.article2 {
+.contacts {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background: url(/img/footer/footer_bg_img_opacity30.png) no-repeat 0 0;
-  height: 448px;
+  padding-top: 97px;
+  padding-bottom: 126px;
   background-size: cover;
 }
-
-.article2_left_figure {
+.contacts__figure {
+  gap: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
-
-.article2_img {
+.contacts__figure__img {
   padding-bottom: 30px;
 }
-
-.article2_left_text {
+.contacts__figure_left-text {
   color: #222;
   text-align: center;
   font-size: 20px;
@@ -1319,23 +1319,20 @@ figure {
   font-weight: 400;
   line-height: normal;
 }
-
-.article2_italic_left_text {
+.contacts__figure .italic {
   font-style: italic;
 }
-
-.article2_right_figure {
+.contacts__right-figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-.article2_right_figure_subscribe_form {
+.contacts__right-figure__subscribe_form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.article2_right_figure_subscribe_form .input_box_title {
+.contacts__right-figure__subscribe_form .input_box_title {
   display: flex;
   flex-direction: column;
   color: #222;
@@ -1345,15 +1342,15 @@ figure {
   font-weight: 700;
   line-height: 167.2%;
 }
-.article2_right_figure_subscribe_form .input_box_title_small {
+.contacts__right-figure__subscribe_form .input_box_title_small {
   font-size: 18px;
   font-weight: 400;
 }
-.article2_right_figure_subscribe_form .input_box {
+.contacts__right-figure__subscribe_form .input_box {
   display: flex;
   flex-direction: row;
 }
-.article2_right_figure_subscribe_form .input_box_subscribe_input {
+.contacts__right-figure__subscribe_form .input_box_subscribe_input {
   border-inline: none;
   outline: none;
   border: none;
@@ -1368,7 +1365,7 @@ figure {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
-.article2_right_figure_subscribe_form .input_box_subscribe_btn {
+.contacts__right-figure__subscribe_form .input_box_subscribe_btn {
   display: flex;
   justify-content: center;
   align-items: center;
