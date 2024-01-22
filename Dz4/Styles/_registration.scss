@@ -146,3 +146,9 @@ p {
     @include text_style(16px, 300, $mainBlackColor);
   }
 }
+
+@media (max-width: 767px) {
+    .reg {
+      flex-direction: column;
+    }
+}

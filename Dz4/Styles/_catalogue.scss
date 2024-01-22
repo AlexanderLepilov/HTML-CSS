@@ -158,7 +158,6 @@ summary::-webkit-details-marker {
           user-select: none;
         }
         &_checkbox + label::before {
-          content: " ";
           display: inline-block;
           width: 1em;
           height: 1em;
@@ -255,6 +254,39 @@ summary::-webkit-details-marker {
   }
   .catalog_filter_left{
     width: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .catalog_filter_left_summary_heading {
+    position: absolute;
+    z-index: 0;
+    visibility: hidden;
+    left: -99999px;
+    padding: 0;
+    width: auto;
+  }
+  .sort {
+    top: 45px !important;
+    gap: 22px !important;
+    .filter1 {
+      @include text_style(12px, 400, #6f6e6e);
+    }
+    .filter_details_box {
+      .filter_details_box_item {
+        .filter_checkbox_box_item_label {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .content_goods2 {
+    margin-bottom: 40px;
+    margin-top: 92px;
+
+  }
+  .pagination__div {
+    margin-bottom: 64px;
   }
 }
 
